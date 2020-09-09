@@ -5,5 +5,18 @@
 #Até 20 anos: SÊNIOR
 #Acima: MASTER
 
+from datetime import date
 
+vAno = int(input('Digite o ano de Nascimento: '))
+vAnoAtual = date.today().year
 
+vQtdeAnos = vAnoAtual - vAno
+
+if vQtdeAnos >= 20:
+    print('Categoria SÊNIOR!')
+elif vQtdeAnos >=19:
+    print('Categoria JUNIOR!')
+elif vQtdeAnos >=14:
+    print('Categoria INFANTIL!')
+else:
+    print('Categoria MIRIM!')
