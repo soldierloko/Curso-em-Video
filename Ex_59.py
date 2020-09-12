@@ -8,3 +8,7 @@
 
 
 #Seu programa deverá realizar a operação solicitada em cada caso
+
+v1 = int(input('Primeiro Valor: '))
+v2 = int(input('Segundo Valor: '))
+
