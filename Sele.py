@@ -1,5 +1,6 @@
-#Abrir o navegador
-import webbrowser
-import time
+from selenium import webdriver
 
-webbrowser.open('https://www.climatempo.com.br/')
+url = 'https://www.youtube.com/watch?v=cjapWDBkTy8'
+
+drive = webdriver.Chrome()
+driver.get(url)
