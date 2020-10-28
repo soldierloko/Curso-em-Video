@@ -4,3 +4,8 @@
 #Uma listagem com as pessoas mais pesadas
 #Uma listagem com as pessoas mais leves
 
+lista = []
+
+while True:
+    nome = input("Digite um nome: ")
+    peso = 
