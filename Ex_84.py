@@ -4,8 +4,22 @@
 #Uma listagem com as pessoas mais pesadas
 #Uma listagem com as pessoas mais leves
 
-lista = []
+galera = []
+individuo = []
+cont = 0
 
 while True:
     nome = input("Digite um nome: ")
-    peso = 
+    peso = input("Digite peso: ")
+    individuo.append(nome)
+    individuo.append(peso)
+
+    galera.append(individuo[:])
+    individuo.clear()
+    cont +=1
+    
+    if input("Deseja continuar? [S/N]").upper() == "N":
+        break
+
+print(f'A quantidade de pessoas cadastradas foram {cont}')
+
